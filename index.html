@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .food-item {
+            background-color: #fff5f0;
+            border: 1px solid #ffb499;
+            border-radius: 10px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+        .food-item img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .food-item h3 {
+            margin: 10px 0 5px 0;
+        }
+        .food-item p {
+            margin: 0 0 10px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Food Menu</h1>
+    </header>
+
+    <div class="menu">
+        <div class="food-item">
+            <img src="https://via.placeholder.com/200x150.png?text=Pizza" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>$10</p>
+        </div>
+        <div class="food-item">
+            <img src="https://via.placeholder.com/200x150.png?text=Burger" alt="Burger">
+            <h3>Burger</h3>
+            <p>$5</p>
+        </div>
+        <div class="food-item">
+            <img src="https://via.placeholder.com/200x150.png?text=Pasta" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>$8</p>
+        </div>
+        <div class="food-item">
+            <img src="https://via.placeholder.com/200x150.png?text=Salad" alt="Salad">
+            <h3>Salad</h3>
+            <p>$6</p>
+        </div>
+    </div>
+</body>
+</html>
